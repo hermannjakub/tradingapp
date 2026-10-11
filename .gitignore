@@ -1,0 +1,31 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# IDE (JetBrains - PyCharm / CLion)
+# =========================
+.idea/
+*.iml
+cmake-build-*/
+
+# =========================
+# C++ / CMake (Backend)
+# =========================
+build/
+backend/server
+backend/server.exe
+backend/trading_backend
+*.o
+*.out
+
+# =========================
+# Python / Streamlit (Frontend)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
